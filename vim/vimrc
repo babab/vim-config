@@ -251,7 +251,9 @@ nnoremap <silent> <Leader>w <C-W>
 "++ Plugin mappings ----------------------------------------------------------
 
 nmap <Leader>,, <C-y>,h
+nmap <Leader>` ysW`
 nmap <Leader>' ysW'
+nmap <Leader>" ysW"
 
 vmap v <Plug>(expand_region_expand)
 vmap <C-v> <Plug>(expand_region_shrink)
