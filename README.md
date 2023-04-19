@@ -9,13 +9,24 @@ config.
 Clone this repo by doing something like this, replacing `myfavdir` for a
 path of your own choosing:
 
-``` console
+``` sh
 mkdir ~/myfavdir
 cd ~/myfavdir
 git clone https://github.com/babab/vim-config
 ```
 
 ## Link config and install plugins
+
+### Using install script
+
+The install script does all the same steps as described in the manual
+install but with added checks and feedback when something goes wrong.
+It will create a symbolic link to the path where this repo in located,
+which is more convenient than substituting paths in commands by hand.
+
+``` sh
+./install.sh
+```
 
 ### Manual install
 
