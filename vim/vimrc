@@ -301,7 +301,7 @@ nnoremap <silent> <Leader>t :call Settabbing('input')<CR>
 " Use 4 spaces for tabs by default
 " Use 2 spaces when editing html and django template files
 " Use 3 spaces when editing reStructuredText files
-" Use tabs (tabbing with 4 spaces) when programming in Go
+" Use tabs (tabbing with 4 spaces) when programming in Go or Godot/GDScript
 " Use tabs (tabbing with 8 spaces) when editing Makefiles
 set expandtab
 call Settabbing(4)
@@ -319,8 +319,9 @@ augroup Tabbing
     autocmd BufEnter *.html call Settabbing(2)
     autocmd BufEnter *.tpl call Settabbing(2)
     autocmd FileType make set noexpandtab | call Settabbing(8)
-    autocmd FileType godot set noexpandtab | call Settabbing(4)
+    autocmd FileType gitconfig set noexpandtab | call Settabbing(4)
     autocmd FileType go set noexpandtab | call Settabbing(4)
+    autocmd FileType godot set noexpandtab | call Settabbing(4)
 augroup END
 
 "+----------------------------------------------------------------------------
