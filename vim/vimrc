@@ -5,20 +5,18 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'babab/vim-MagicKey'
 Plugin 'babab/vim-djazz'
 Plugin 'evidens/vim-twig'
 Plugin 'fatih/vim-go'
-Plugin 'honza/vim-snippets'
-Plugin 'jamessan/vim-gnupg'
 Plugin 'kien/ctrlp.vim'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'mattn/emmet-vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'quabug/vim-gdscript'
-Plugin 'rosenfeld/conque-term'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'terryma/vim-expand-region'
@@ -27,14 +25,19 @@ Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-vinegar'
 Plugin 'vimoutliner/vimoutliner'
 Plugin 'xolox/vim-misc'
 Plugin 'Glench/Vim-Jinja2-Syntax'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'Quramy/tsuquyomi'
 Plugin 'Shougo/vimproc.vim'
-Plugin 'SirVer/ultisnips'
+
+" DISABLE PLUGINS
+" Plugin 'honza/vim-snippets'
+" Plugin 'jamessan/vim-gnupg'
+" Plugin 'rosenfeld/conque-term'
+" Plugin 'tpope/vim-vinegar'
+" Plugin 'SirVer/ultisnips'
 
 call vundle#end()
 filetype plugin indent on
