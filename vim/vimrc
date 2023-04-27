@@ -31,6 +31,7 @@ Plugin 'Glench/Vim-Jinja2-Syntax'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'Quramy/tsuquyomi'
 Plugin 'Shougo/vimproc.vim'
+Plugin 'mzlogin/vim-markdown-toc'
 
 " DISABLE PLUGINS
 " Plugin 'honza/vim-snippets'
@@ -148,6 +149,9 @@ let g:syntastic_php_phpmd_post_args = $HOME . '/dotfiles/standards/minimal-phpmd
 
 let g:ycm_server_python_interpreter = '/usr/bin/python3'
 let g:ycm_autoclose_preview_window_after_insertion = 1
+
+" mzlogin/vim-markdown-toc - Markdown TOC renderer
+" let g:vmt_include_headings_before = 1
 
 
 "+----------------------------------------------------------------------------
